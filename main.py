@@ -246,5 +246,4 @@ async def setuproles(ctx):
 
 keep_alive()
 
-bot.run(
-    "MTE4MDQ0MzY4NzQ3ODY0MDc2MQ.GG7BLr.AWrceV-DU5gkLgK3C6WwR3GGEQ2-5yLGOum06g")
+bot.run(process.env.TOKEN)
